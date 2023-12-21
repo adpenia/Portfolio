@@ -1,0 +1,208 @@
+/* Estilo del Header */
+
+.navbar-brand,
+.nav-link {
+    color: white !important;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+/* Main */
+
+main {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Imagen/DSC_0609.jpg);
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 50px 0;
+    color: white;
+    filter: brightness(50%);
+}
+
+.btn-contactar {
+    padding: 5px 10px;
+    margin-top: 5%;
+    text-decoration: none;
+
+    border: 1px solid black;
+    background-color: white color: black;
+    border-radius: 5px;
+}
+
+.sobremi {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+}
+
+.imagen {
+    width: 250px;
+    height: 200px;
+    box-shadow: 10px 10px 5px blueviolet;
+}
+
+.contenido-izquierdo {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.contenido-izquierdo h3 {
+    font-size: 25px;
+}
+
+.imagen-derecha {
+    flex: 1;
+    text-align: center;
+}
+
+/* Queries sobre mi */
+
+@media (max-width:768px) {
+    .contenedor-seccion {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contenido-izquierdo,
+    .imagen-derecha {
+        width: 100%;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 468px){
+    .imagen{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+
+
+/* Tecnologias */
+
+.contenedor {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tarjeta {
+    width: 50%;
+    background-color: beige;
+    max-width: 200px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 2px blueviolet;
+    text-align: center;
+}
+
+.fa-react {
+    color: aquamarine;
+    font-size: 25px;
+}
+
+.tarjeta i {
+    font-size: 30px;
+
+}
+
+.tarjeta h2 {
+    font-size: 20px;
+}
+
+.sobremi {
+    margin-top: 5%;
+
+}
+
+.titulo-sobremi {
+    color: blueviolet;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.contenedor-seccion {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+    width: 50%;
+}
+
+
+/* Proyectos*/
+.proyectos .contenedor .tarjeta img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+
+section {
+    margin-top: 5%;
+}
+
+/* Contactame */
+
+.formulario {
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.campos {
+    margin-bottom: 20px;
+}
+
+.contenido {
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    background: none;
+    border: 2px solid pink;
+    border-radius: 5px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: white;
+}
+
+
+.submit {
+    background-color: black;
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*footer */
+
+footer {
+    background-color: aquamarine;
+    height: 500px;
+
+}

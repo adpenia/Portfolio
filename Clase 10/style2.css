@@ -1,0 +1,12 @@
+.contenedor {
+    background: gray;
+    display: flex;
+}
+
+.tarjeta2 {
+    flex: 1;
+    background-color: pink;
+}
+.tarjeta1{
+    flex:1
+}
